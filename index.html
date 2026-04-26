@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanTrend Hub | Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="video-header">
+       <video autoplay muted loop playsinline id="bg-video">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Your browser does not support video.
+</video>
+        <div class="header-overlay">
+            <h1>UrbanTrend Hub</h1>
+            <p>Redefining Streetwear & Tech</p>
+            <div class="header-search">
+                <input type="text" id="page-search-input" placeholder="Search on page...">
+                <button onclick="searchText()">Find</button>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <section class="features-grid">
+            <div class="feature-box">
+                <h2>🚚 Free Shipping</h2>
+                <p>On orders over $50.</p>
+            </div>
+            <div class="feature-box">
+                <h2>📱 Mobile Ready</h2>
+                <p>Shop on any device.</p>
+            </div>
+            <div class="feature-box">
+                <h2>🔒 Secure Payment</h2>
+                <p>PCI DSS Compliant.</p>
+            </div>
+        </section>
+
+        <section class="social-feed">
+            <h2>#UrbanTrend Live Feed</h2>
+            <div class="feed-container">
+                <div class="social-card">
+                    <p><strong>@UrbanTrendHub</strong> Just dropped the new summer collection! 🔥 <a href="#">#StreetStyle</a></p>
+                    <button class="share-btn">𝕏 Share</button>
+                </div>
+                <div class="social-card">
+                    <p><strong>@FashionGuru</strong> Loving the new fit from UrbanTrend! 📸</p>
+                    <button class="share-btn">📷 Share</button>
+                </div>
+            </div>
+            <div class="social-buttons">
+                <a href="#" class="btn fb">Facebook</a>
+                <a href="#" class="btn ig">Instagram</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 UrbanTrend Hub | DCIT 209 Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
